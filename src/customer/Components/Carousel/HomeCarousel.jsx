@@ -10,7 +10,7 @@ const HomeCarousel = () => {
   const navigate = useNavigate();
   const item = homeCarouselData.map((item) => (
     <img
-      className="cursor-pointer rounded-md"
+      className="cursor-pointer rounded-md flex"
       onClick={() => navigate(item.path)}
       src={item.image}
       alt=""
@@ -26,6 +26,8 @@ const HomeCarousel = () => {
       infinite
       autoPlayInterval={2000}
       disableButtonsControls
+      className="w-full h-full"
+
     />
   );
 };
