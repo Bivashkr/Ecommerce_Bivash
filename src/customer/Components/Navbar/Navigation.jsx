@@ -81,7 +81,7 @@ export default function Navigation() {
   return (
     <div className="bg-white pb-10">
       {/* Mobile menu */}
-      <Transition.Root show={open} as={Fragment}>
+      {/*<Transition.Root show={open} as={Fragment}>
         <Dialog as="div" className="relative z-40 lg:hidden" onClose={setOpen}>
           <Transition.Child
             as={Fragment}
@@ -117,7 +117,7 @@ export default function Navigation() {
                   </button>
                 </div>
 
-                {/* Links */}
+                {/* Links */} {/*}
                 <Tab.Group as="div" className="mt-2">
                   <div className="border-b border-gray-200">
                     <Tab.List className="-mb-px flex space-x-8 px-4">
@@ -181,7 +181,7 @@ export default function Navigation() {
                             >
                               {section.name}
                             </p>
-                            {/* eslint-disable-next-line jsx-a11y/no-redundant-roles */}
+                            {/* eslint-disable-next-line jsx-a11y/no-redundant-roles */} {/*
                             <ul
                               role="list"
                               aria-labelledby={`${category.id}-${section.id}-heading-mobile`}
@@ -244,6 +244,7 @@ export default function Navigation() {
           </div>
         </Dialog>
       </Transition.Root>
+      */}
 
       <header className="relative bg-white">
   
