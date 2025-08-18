@@ -32,7 +32,7 @@ const CustomerRoutes = () => {
     <div>
     
     <ThemeProvider theme={customerTheme}>
-    {showNavigation && <Navigation />}
+    <Navigation />
      <Routes>
      <Route path="/login" element={<Homepage />}></Route>
      <Route path="/register" element={<Homepage />}></Route>
