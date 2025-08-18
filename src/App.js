@@ -26,7 +26,9 @@ function App() {
         <Route path="/*" element={<CustomerRoutes />} />
        {auth.user?.role==="ROLE_ADMIN" && <Route path="/admin/*" element={<AdminPannel />} />}
       </Routes>
+         <p className="bg-green-600">Bivash</p>
     </div>
+    
   );
 }
 
