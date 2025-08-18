@@ -289,6 +289,7 @@ export default function Navigation() {
                               )}
                             >
                               {category.name}
+                              {console.log("Category name is:" + category.name)}
                             </Popover.Button>
                           </div>
 
