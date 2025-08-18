@@ -1,4 +1,4 @@
-export const navigation = {
+export const navigationMenu = {
     categories: [
       {
         id: 'women',
