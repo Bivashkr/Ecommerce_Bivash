@@ -1,6 +1,6 @@
 import { Fragment, useEffect, useState } from "react";
 import { Dialog, Popover, Tab, Transition } from "@headlessui/react";
-import './output.css';
+import '../../../output.css';
 
 import {
   Bars3Icon,
