@@ -3,6 +3,7 @@ import axios from 'axios';
  const LOCALHOST='http://localhost:5454';
 
  const RAILWAYHOST= 'https://ecommercebivashbackend2-production.up.railway.app';
+ 
 
 export const API_BASE_URL = RAILWAYHOST
 
