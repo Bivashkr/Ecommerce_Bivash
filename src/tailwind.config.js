@@ -3,7 +3,7 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",        // Standard React paths
     "./public/**/*.html",                // HTML files (if any)
-    "./components/**/*.{js,jsx,ts,tsx}", // Additional component paths
+    "./Components/**/*.{js,jsx,ts,tsx}", // Additional component paths
   ],
   theme: {
     extend: {},
